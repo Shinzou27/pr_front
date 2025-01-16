@@ -9,7 +9,7 @@ function App() {
 
   return (
 
-    <div className={`App w-full pt-[50px] ${theme}`}>
+    <div className={`App w-full h-full pt-[60px] ${theme}`}>
     <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />
